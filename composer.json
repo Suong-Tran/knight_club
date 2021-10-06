@@ -1,0 +1,19 @@
+{
+    "name": "webappdev/knightsclub",
+    "autoload": {
+        "psr-4": {
+            "Webappdev\\Knightsclub\\": "src/"
+        }
+    },
+    "require": {
+        "ext-pdo": "*",
+
+        "phpmailer/phpmailer": "^6.5",
+
+      "ext-curl": "*",
+
+        "ext-json": "*",
+      "ext-simplexml": "*"
+    }
+  
+}

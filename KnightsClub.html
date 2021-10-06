@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" async defer src="./js/sidenav.js"></script>
+  <link rel="stylesheet" href="./css/style_template.css" />
+  <meta name="viewport" content="width=device-width">
+  <title>Home — Knight's Club</title>
+</head>
+
+<body>
+  <header>
+    <a href="#"><img id="header-logo" src="./images/php-knights-logo.png" alt="site logo made of a knights helmet" width="200" /></a>
+    
+    <span id="navBtn" onclick="openNav()">&#9776; MENU</span>
+    <div id="sideNav" class="sidenav">
+      <a id="closeBtn" onclick="closeNav()">&times;</a>
+      <a>
+        <form method="GET" action="./ahmed-search/results.php">
+          <div>
+            <input type="text" id="searchBar" placeholder="Search.." />
+            <button type="submit" id="searchBtn">Search</button>
+          </div>
+        </form>
+      </a>
+      <a href="./user_profile_estevan/login_user.php">Profile</a>
+      <a href="./Suong-Image-Gallery/image_gallery.php">Image Gallery</a>
+      <a href="#">Newsletter</a>
+      <a href="#">About Us</a>
+      <a href="ContactUs_Vedanshi/ContactUs.php">Contact</a>
+    </div>
+  </header>
+  <main>
+    <div id="main-1">
+      <img id="main-1-img" src="./images/main1.png"/>
+      <div id="main-1-text">
+        <h1>A New Way to Connect</h1>
+        <p>The Knight's Club is a new social network that allows users to connect with friends, family, co-workers, or anyone from around the world</p>
+      </div>
+    </div>
+    <div id="main-2">
+      <img id="main-2-img" src="./images/main2.png"/>
+      <div id="main-2-text">
+        <h1>Contact people from anywhere</h1>
+        <p>Reach any member from the Knight's Club from any computer, tablet or phone with an internet connection. Find and talk to anyone from around the world, anytime and anywhere.</p>
+      </div>
+    </div>
+    <div id="main-3">
+      <div id="main-3-text">
+        <h1>Join the Knight's Club today!</h1>
+      </div>
+      <a id="joinBtn" href="ahmed-login/register.php">Join the Club</a>
+    </div>
+  </main>
+  <footer>
+    <div id="footer-menu">
+      <div>
+        <img id="footer-logo" src="./images/php-knights-logo.png" alt="site logo made of a knights helmet" />
+      </div>
+      <div class="footer-col">
+          <h3><a href="#">Home</a></h3>
+      </div>
+      <div class="footer-col">
+          <h3><a href="#">Search</a></h3>
+      </div>
+      <div class="footer-col">
+          <h3><a href="#">Profile</a></h3>
+          <ul>
+              <li><a href="#">Subscribe</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h3><a href="#">About Us</a></h3>
+          <ul>
+              <li><a href="FAQ_Vedanshi/FAQ.php">FAQ</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="">Advice</a></li>
+              <li><a href="ContactUs_Vedanshi/ContactUs.php">Contact Us</a></li>
+              <li><a href="">Site Map</a></li>
+          </ul>
+      </div>
+  </div>
+  <div id="copyright">
+      <p>&copy; 2021, PHP Knights</p>
+  </div>
+  </footer>
+</body>
+</html>
